@@ -1,5 +1,5 @@
 <?php
-echo "<link rel=stylesheet href=estilos.css>";
+//echo "<link rel=stylesheet href=estilos.css>";
 
     function sumar($num1,$num2){
         return $num1 + $num2;
