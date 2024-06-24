@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Operaciones matematicas</title>
+</head>
+<body>
+    <form action="procesar.php" method="post">
+        <h2>Operaciones Artimeticas</h2>
+        <label for="operaciones"> que operación realizaras?</label>
+        <div style="display: inline-flex; width: 100%">
+        <button type="submit" name="operacion" value="Suma">Suma</button></button>
+        <button type="submit" name="operacion" value="Resta">Resta</button>
+        <button type="submit" name="operacion" value="Multiplicacion">Multiplicación</button>
+        <button type="submit" name="operacion" value="Division">División</button>
+        </div>
+
+        <label for="val1">Ingresa el primer valor:</label>
+        <input type="number" name="val1" placeholder="Valor 1" required>
+        <label for="val2">Ingresa el segundo valor:</label>
+        <input type="number" name="val2" placeholder="Valor 2" required>
+    </form>
+</body>
+</html>
